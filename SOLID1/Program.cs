@@ -64,56 +64,56 @@ namespace SOLID1
         {
             public void Bark()
             {
-                Console.WriteLine("Köpekler havlayabilir");
+                Console.WriteLine("dogs can bark");
             }
 
             public void Eat()
             {
-                Console.WriteLine("Köpekler yemek yer.");
+                Console.WriteLine("dogs eat.");
             }
 
             public void Respiratory()
             {
-                Console.WriteLine("solunum yaparlar");
+                Console.WriteLine("they breathe");
             }
         }
         public class Bird : IAnimals, IFly, ISpawn
         {
             public void Eat()
             {
-                Console.WriteLine("Kuşlar yemek yer");
+                Console.WriteLine("birds eat");
             }
 
             public void Fly()
             {
-                Console.WriteLine("Kuşlar uçabilir");
+                Console.WriteLine("Birds can fly");
             }
 
             public void Respiratory()
             {
-                Console.WriteLine("solunum yaparlar");
+                Console.WriteLine("they breathe");
             }
 
             public void Spawn()
             {
-                Console.WriteLine("kuşlar yumurtlar");
+                Console.WriteLine("birds lay eggs");
             }
         }
         public class Cat : IMew, IAnimals
         {
             public void Eat()
             {
-                Console.WriteLine("Kediler yemek yer");
+                Console.WriteLine("cats eat");
             }
 
             public void Mew()
             {
-                Console.WriteLine("Kediler miyavlar");
+                Console.WriteLine("cats meow");
             }
 
             public void Respiratory()
             {
-                Console.WriteLine("solunum yaparlar");
+                Console.WriteLine("they breathe");
             }
         }
     }
